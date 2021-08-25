@@ -1,5 +1,9 @@
 body{
     font-family: cursive;
+    background: url("https://wallpaperaccess.com/full/3214377.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
 }
 .content{
     float: left;
@@ -35,12 +39,12 @@ h4{
 
 input{
     border-color: black;
-    border-radius: 10px;
     box-shadow: 1px 1px 1px back;
     border-style: none;
-    
-    
+    color: white;
+   
 }
+
 button{
     height: 30px;
     width: 100px;
@@ -48,25 +52,11 @@ button{
     margin-top: 200px;
     border-style: none;
     border-radius: 10px;
-    
+    background-color: black;
+    animation: card 1s  alternate infinite;
 }
-button:hover{
-    box-shadow: 3px 3px 5px black; 
-    font-size: 21px;
-}
-h2:hover{
-    box-shadow: 3px 3px 5px black; 
-    font-size: 21px;
-}
-h4:hover{
-    box-shadow: 3px 3px 5px black; 
-    font-size: 21px;
-}
-input:hover{
-    box-shadow: 3px 3px 5px black; 
-    font-size: 16px;
-}
-h1:hover{
-    font-size: 21px;
+@keyframes card{
+    0%{background-color: black;color: white;}
+    100%{background-color: white;color: black;}
 }
 
